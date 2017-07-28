@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+@font-face {
+	font-family: "Myriad Pro";
+	src: url(MyriadProRegular.woff);
+}
+body {
+	background: #e8e5d2 url(factory.png) no-repeat right bottom;
+	height: 100%;
+	font-family: "Myriad Pro";
+	font-weight: 400;
+}
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 70px;
+}
+
+header {
+	padding-top: 33px;
+	margin-left: auto;
+	margin-right: 42px;
+	text-align: right;
+	min-height: 97px;
+	background: url(building.png) 95px bottom no-repeat;
+}
+
+h6 {
+	opacity: .27;
+	color: #0a0b0b;
+	font-size: 17px;
+	line-height: 14px;
+	margin-top: 0;
+	font-family: "Myriad Pro";
+}
+h2 {
+	margin-top: 21px;
+	margin-left: 95px;
+	text-shadow: 0 0 4px rgba(0, 0, 0, .65);
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 30px;
+}
+p {
+	margin: 10px 0 20px 95px;
+	width: 470px;
+	color: #5a5252;
+	font-size: 13px;
+	line-height: 16px;
+}
+nav {
+	margin-top: -70px;
+	margin-bottom: 48px;
+	opacity: 0.87;
+	margin-left: 36px;
+}
+a {
+	text-decoration: none;
+	opacity: 0.87;
+	color: #2e3034;
+	font-size: 15px;
+	line-height: 18px;
+	margin-left: 14px;
+}
+nav a:first-child {
+	font-size: 17px;
+	line-height: 20px;
+}
